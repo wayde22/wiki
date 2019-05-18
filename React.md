@@ -27,3 +27,5 @@ yarn start
 ```
 
 - This will run your app on localhost:3000
+
+App.css -- is the file where you add css to your react project
