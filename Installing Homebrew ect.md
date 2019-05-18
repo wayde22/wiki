@@ -1,3 +1,1 @@
-[Markdown Cheetsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-
 [Installing HomeBrew Ect](https://github.com/lgc13/LucasCosta_portfolio/tree/master/react/React-Tutorial/Day1)
