@@ -30,7 +30,7 @@ yarn start
 - This will run your app on localhost:3000
 
 ## General things about React
-
+##### Files and what they are for
  - package.json -- is the json manifest file that has the version of react, dependencies, packages, etc.
  - App.css -- is the file where you add css to your react project.
  - index.html -- everything outputs through ```<div id="root"></div>```.
@@ -39,5 +39,5 @@ yarn start
 - ```import ReactDOM from 'react-dom';``` -- importing react DOM.
 - ```import App from './App';``` -- importing the main app component.
 - 
-
+##### Misc
 ```<AppName />``` -- this html like tag inside divs is what gets imbeded into the UI.
