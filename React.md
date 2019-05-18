@@ -1,4 +1,4 @@
-##Setting up
+# Setting up
 Install yarn
 Installing on Windows:
 Get Node.js https://nodejs.org/en/
