@@ -1,4 +1,5 @@
-[Getting Setup with React](https://github.com/lgc13/LucasCosta_portfolio/tree/master/react/React-Tutorial/Day1)
+#### React Setup ect.
+- [Getting Setup with React](https://github.com/lgc13/LucasCosta_portfolio/tree/master/react/React-Tutorial/Day1)
 - [ES6 Practice](https://github.com/lgc13/LucasCosta_portfolio/tree/master/react/React-Tutorial/Day1/es6-practice)
 - [Hello World create React App](https://github.com/lgc13/LucasCosta_portfolio/tree/master/react/React-Tutorial/Day1/hello-world-create-react-app)
 - [Hello World with no Yarn](https://github.com/lgc13/LucasCosta_portfolio/tree/master/react/React-Tutorial/Day1/hello-world-no-yarn)
