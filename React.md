@@ -29,6 +29,8 @@ yarn start
 
 - This will run your app on localhost:3000
 
+- Add a components file inside of the src folder.
+
 ## General things about React
 ##### Files and what they are for
  - package.json -- is the json manifest file that has the version of react, dependencies, packages, etc.
