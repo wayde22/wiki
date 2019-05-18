@@ -35,9 +35,10 @@ yarn start
  - App.css -- is the file where you add css to your react project.
  - index.html -- everything outputs through ```<div id="root"></div>```.
  - index.js -- It's in the source folder, ```React.render(<App />, document.getElementById('root'));``` is the line of code the puts the App Component(```import App from './App';```) in the ``` <div id="root"></div> ``` for in to render on the UI.
+
+- 
+##### Misc
+- ```<AppName />``` -- this html like tag inside divs is what gets imbeded into the UI.
 - ```import React from 'react';``` -- imports react library.
 - ```import ReactDOM from 'react-dom';``` -- importing react DOM.
 - ```import App from './App';``` -- importing the main app component.
-- 
-##### Misc
-```<AppName />``` -- this html like tag inside divs is what gets imbeded into the UI.
