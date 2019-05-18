@@ -6,3 +6,5 @@
 
 ##### React Tutorial by Lucas Costa
 - [QDiv React Curriculum](https://github.com/lgc13/LucasCosta_portfolio/tree/master/react/React-Tutorial)
+- [Todo List in React](https://github.com/lgc13/LucasCosta_portfolio/tree/master/react/todo-react)
+- [Unit Testing Ex](https://github.com/lgc13/LucasCosta_portfolio/tree/master/react/unit-testing-example)
