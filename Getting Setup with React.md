@@ -5,4 +5,4 @@
 - [JSX, Components and Props](https://github.com/lgc13/LucasCosta_portfolio/tree/master/react/React-Tutorial/Day1/jsx-components-and-props)
 
 ##### React Tutorial by Lucas Costa
-- [QDiv React Tutorial](https://github.com/lgc13/LucasCosta_portfolio/tree/master/react/React-Tutorial)
+- [QDiv React Curriculum](https://github.com/lgc13/LucasCosta_portfolio/tree/master/react/React-Tutorial)
