@@ -3,3 +3,4 @@
 - The trim() method removes whitespace from both sides of a string.
 - ...something -- [Spread operator](https://davidwalsh.name/spread-operator)
 - checkedTodo.complete = !checkedTodo.complete -- Acts as a switch or a flag that changes back and forth from complete to Not Complete. Kind of like changing back and forth from true and false.
+-trim() - 
