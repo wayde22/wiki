@@ -1,0 +1,1 @@
+- .find() -- Array.find() Method. Introduction: The Array.find() is an inbuilt function in JavaScript which is used to get the value of the first element in the array that satisfies the provided condition.It checks all the elements of the array and whichever the first element satisfies the condition is going to print.
