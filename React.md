@@ -46,5 +46,5 @@ yarn start
 - ```import ReactDOM from 'react-dom';``` -- importing react DOM.
 - ```import App from './App';``` -- importing the main app component.
 
-- When writing a function out side of the class, it must be '''const handleWhatever = () => { some code }'''
-- When writing inside the class the function should be writen '''handleWhatever = () => { some code }'''
+- When writing a function out side of the class, it must be ```const handleWhatever = () => { some code }```
+- When writing inside the class the function should be writen ```handleWhatever = () => { some code }```
