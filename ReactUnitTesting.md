@@ -1,11 +1,11 @@
-##### Unit Testing React Apps
+## Unit Testing React Apps
 
-### What do you want to test?
+#### What do you want to test?
 - Is the right information rendered?
 - Do interactions rendr the right results?
 - What about styling?
 
-### How Do we test
+#### How Do we test
 - React-test-renderer
 Provided by React Team
 Does the basics
@@ -38,7 +38,7 @@ describe('Calculator', () => {
   })
 ```
       
-### What is snapshot testing?
+#### What is snapshot testing?
 - Captures the rendered output of the unit under test (saves a snapshot file in your project)
 - Subsequent runs compare output to captured output
 Pros: is it is easy.
@@ -49,7 +49,7 @@ Tests are easily broken by imlementation details
 When test break, it's gard to tell why.
 Gives you a false sense of security.
 
-## Adding Enzyme to your react app:
+#### Adding Enzyme to your react app:
 ```js
 Yarn add –dev enzyme enzyme-adapter-react-16
 Create setupTests.js
