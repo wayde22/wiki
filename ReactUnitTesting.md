@@ -1,6 +1,6 @@
 ##### Unit Testing React Apps
 
-###What do you want to test?
+### What do you want to test?
 - Is the right information rendered?
 - Do interactions rendr the right results?
 - What about styling?
@@ -32,6 +32,7 @@ desctibe('when 32 entered in 'f', () => {
 - Subsequent runs compare output to captured output
 Pros: is it is easy.
 Cons: Its hard to tell what you are testing
+
 Test are very brittle
 Tests are easily broken by imlementation details
 When test break, it's gard to tell why.
