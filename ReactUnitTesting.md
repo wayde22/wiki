@@ -38,9 +38,9 @@ When test break, it's gard to tell why.
 Gives you a false sense of security.
 
 Adding Enzyme to your react app:
-1.) Yarn add –dev enzyme enzyme-adapter-react-16
-2.) Create setupTests.js. 
+1.) ```Yarn add –dev enzyme enzyme-adapter-react-16
+2.) Create setupTests.js.``` 
 
 ``` import Enzyme from 'enzyme'; 
 import Adapter from 'enzyme-adapter-react-16'; 
-Enzyme.configure({ adapter: new Adapter() }); ```
+Enzyme.configure({ adapter: new Adapter() });```
