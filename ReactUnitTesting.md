@@ -55,7 +55,7 @@ Yarn add –dev enzyme enzyme-adapter-react-16
 Create setupTests.js
 ```
 
-## Add to your app
+#### Add to your app
 ```js
 import Enzyme from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
