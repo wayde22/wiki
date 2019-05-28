@@ -19,6 +19,7 @@ Discourages shallow rendering
 [Enzyme](https://airbnb.io/enzyme/)  example:
 
 [Shallow](https://airbnb.io/enzyme/docs/api/shallow.html)
+[Enzyme Cheetsheet](https://devhints.io/enzyme)
 ```js
 describe('Calculator', () => {
   const component = shallow(<Calculator/>);
