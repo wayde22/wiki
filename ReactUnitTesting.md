@@ -37,10 +37,11 @@ Tests are easily broken by imlementation details
 When test break, it's gard to tell why.
 Gives you a false sense of security.
 
-Adding Enzyme to your react app:
-1.) ```Yarn add –dev enzyme enzyme-adapter-react-16
-2.) Create setupTests.js.``` 
+## Adding Enzyme to your react app:
+1.) Yarn add –dev enzyme enzyme-adapter-react-16
+2.) Create setupTests.js 
 
-``` import Enzyme from 'enzyme'; 
-import Adapter from 'enzyme-adapter-react-16'; 
-Enzyme.configure({ adapter: new Adapter() });```
+## Add to your app
+import Enzyme from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+Enzyme.configure({ adapter: new Adapter() });
