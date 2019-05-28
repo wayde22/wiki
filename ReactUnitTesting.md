@@ -16,7 +16,7 @@ Made by Airbnb
 user-centric approach
 Discourages shallow rendering
 
-Enzyme example:
+[Enzyme](https://airbnb.io/enzyme/) example:
 expect(component.find('TemperaturInput').find({scale: 'f'}).length).toEqual();
 
 desctibe('when 32 entered in 'f', () => {
