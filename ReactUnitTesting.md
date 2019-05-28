@@ -17,6 +17,7 @@ user-centric approach
 Discourages shallow rendering
 
 [Enzyme](https://airbnb.io/enzyme/)  example:
+
 [Shallow](https://airbnb.io/enzyme/docs/api/shallow.html)
 ```js
 describe('Calculator', () => {
