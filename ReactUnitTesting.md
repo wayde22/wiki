@@ -44,6 +44,8 @@ Gives you a false sense of security.
 2.) Create setupTests.js 
 
 ## Add to your app
+```
 import Enzyme from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 Enzyme.configure({ adapter: new Adapter() });
+```
