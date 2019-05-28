@@ -19,17 +19,22 @@ Discourages shallow rendering
 Enzyme example:
 [Enzyme](https://airbnb.io/enzyme/)
 ```js
-expect(component.find('TemperaturInput').find({scale: 'f'}).length).toEqual();
-
-desctibe('when 32 entered in 'f', () => {
-  beforeAll() => {
-  component.find('TemeratureInput').find({scale: 'f'})
-      .sumulate('temperatureChange', '32);
-      });
-      it('shows 0 in celcius', () => {
-      expect(comonent.find('TemperatureInput').find({scale:'c'})
-      .prop('temperature')).toEqual('0');
-      }
+describe('Calculator', () => {
+  const component = shallow(<Calculator/>);
+  it('renders', () +> {
+    expect(component.find('TemperatureInput').find{scale: 'c'}).length).toEqual();
+    expect(component.find('TemperaturInput').find({scale: 'f'}).length).toEqual();
+  });
+  desctibe('when 32 entered in 'f', () => {
+    beforeAll() => {
+      component.find('TemeratureInput').find({scale: 'f'})
+        .sumulate('temperatureChange', '32);
+     });
+     it('shows 0 in celcius', () => {
+     expect(comonent.find('TemperatureInput').find({scale:'c'})
+     .prop('temperature')).toEqual('0');
+    })
+  })
 ```
       
 ### What is snapshot testing?
