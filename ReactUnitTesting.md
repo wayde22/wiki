@@ -27,8 +27,7 @@ desctibe('when 32 entered in 'f', () => {
       .sumulate('temperatureChange', '212);
       });
       it('shows 0 in celcius', () ()=> {
-      ```
-      
+ ```js     
       
 ### What is snapshot testing?
 - Captures the rendered output of the unit under test (saves a snapshot file in your project)
