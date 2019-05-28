@@ -16,8 +16,7 @@ Made by Airbnb
 user-centric approach
 Discourages shallow rendering
 
-Enzyme example:
-[Enzyme](https://airbnb.io/enzyme/)
+[Enzyme](https://airbnb.io/enzyme/)  example:
 ```js
 describe('Calculator', () => {
   const component = shallow(<Calculator/>);
