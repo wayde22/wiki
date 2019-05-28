@@ -41,8 +41,8 @@ Gives you a false sense of security.
 
 ## Adding Enzyme to your react app:
 ```js
-1.) Yarn add –dev enzyme enzyme-adapter-react-16
-2.) Create setupTests.js
+Yarn add –dev enzyme enzyme-adapter-react-16
+Create setupTests.js
 ```
 
 ## Add to your app
