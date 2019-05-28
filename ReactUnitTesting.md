@@ -41,10 +41,10 @@ Gives you a false sense of security.
 
 ## Adding Enzyme to your react app:
 1.) Yarn add –dev enzyme enzyme-adapter-react-16
-2.) Create setupTests.js 
+2.) Create setupTests.js
 
 ## Add to your app
-```
+```js
 import Enzyme from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 Enzyme.configure({ adapter: new Adapter() });
