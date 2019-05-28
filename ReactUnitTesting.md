@@ -18,6 +18,7 @@ Discourages shallow rendering
 
 Enzyme example:
 [Enzyme](https://airbnb.io/enzyme/)
+```js
 expect(component.find('TemperaturInput').find({scale: 'f'}).length).toEqual();
 
 desctibe('when 32 entered in 'f', () => {
@@ -25,7 +26,8 @@ desctibe('when 32 entered in 'f', () => {
   component.find('TemeratureInput').find({scale: 'f'})
       .sumulate('temperatureChange', '212);
       });
-      it('shows 0 in celcius', () ()=> {   
+      it('shows 0 in celcius', () ()=> {
+```
       
 ### What is snapshot testing?
 - Captures the rendered output of the unit under test (saves a snapshot file in your project)
