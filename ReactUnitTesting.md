@@ -24,9 +24,10 @@ desctibe('when 32 entered in 'f', () => {
   component.find('TemeratureInput').find({scale: 'f'})
       .sumulate('temperatureChange', '212);
       });
-      
       it('shows 0 in celcius', () ()=> {
-      ### What is snapshot testing?
+      
+      
+### What is snapshot testing?
 - Captures the rendered output of the unit under test (saves a snapshot file in your project)
 - Subsequent runs compare output to captured output
 Pros: is it is easy.
@@ -36,4 +37,10 @@ Tests are easily broken by imlementation details
 When test break, it's gard to tell why.
 Gives you a false sense of security.
 
- 
+Adding Enzyme to your react app:
+1.) Yarn add –dev enzyme enzyme-adapter-react-16
+2.) Create setupTests.js. 
+
+``` import Enzyme from 'enzyme'; 
+import Adapter from 'enzyme-adapter-react-16'; 
+Enzyme.configure({ adapter: new Adapter() }); ```
