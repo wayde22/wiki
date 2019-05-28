@@ -24,9 +24,12 @@ expect(component.find('TemperaturInput').find({scale: 'f'}).length).toEqual();
 desctibe('when 32 entered in 'f', () => {
   beforeAll() => {
   component.find('TemeratureInput').find({scale: 'f'})
-      .sumulate('temperatureChange', '212);
+      .sumulate('temperatureChange', '32);
       });
-      it('shows 0 in celcius', () ()=> {
+      it('shows 0 in celcius', () => {
+      expect(comonent.find('TemperatureInput').find({scale:'c'})
+      .prop('temperature')).toEqual('0');
+      }
 ```
       
 ### What is snapshot testing?
