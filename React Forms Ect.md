@@ -1,6 +1,6 @@
-Files in component folder
+#Files in component folder
 -----------------------------------------------------------------------------
-Events and States.js
+###Events and States.js
 
 ```js
 import React from 'react';
@@ -28,7 +28,7 @@ const EventsAndState = (props) => (
 export default EventsAndState;
 ```
 -------------------------------------------------------------------------------------
-Form.js
+###Form.js
 ```js
 import React from 'react';
 
@@ -50,7 +50,7 @@ export default Form;
 ```
 
 --------------------------------------------------------------------------------------
-Select.js
+###Select.js
 
 ```js
 import React from 'react';
@@ -75,7 +75,7 @@ export default Select;
 ```
 
 --------------------------------------------------------------------------------------
-TextArea.js
+###TextArea.js
 ```js
 import React from 'react';
 
@@ -94,7 +94,7 @@ export default TextArea;
 
 ```
 ----------------------------------------------------------------------------------------
-Toggle.js
+###Toggle.js
 ```js
 import React from 'react';
 
