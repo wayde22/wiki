@@ -1,5 +1,5 @@
-# Files in component folder
-***
+# Files for  Events and Forms
+---
 ### App.js
 ```js
 import React from 'react';
@@ -97,6 +97,9 @@ ReactDOM.render(
 );
 
 ```
+---
+
+## Files in component folder
 ---
 ### Events and States.js
 
