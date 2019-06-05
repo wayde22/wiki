@@ -213,4 +213,4 @@ export default Toggle;
 
 ---
 
-
+<img src="https://github.com/wayde22/LucasCosta_portfolio/raw/master/react/React-Tutorial/Day3/events-and-forms/demo.gif">
