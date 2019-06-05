@@ -1,5 +1,5 @@
-#Files in component folder
----
+# Files in component folder
+***
 ### App.js
 ```js
 import React from 'react';
