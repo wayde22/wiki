@@ -101,6 +101,22 @@ ReactDOM.render(
 
 ## Files in component folder
 ---
+### Toggle.js
+```js
+import React from 'react';
+
+const Toggle = (props) => (
+  <div>
+    <button onClick={props.handleClick}>
+      Click me
+    </button>
+    <p> Current isToggleOn: {props.isToggleOn.toString()} </p>
+  </div>
+);
+
+export default Toggle;
+```
+---
 ### Events and States.js
 
 ```js
@@ -193,22 +209,6 @@ const TextArea = (props) => (
 
 export default TextArea;
 
-```
----
-### Toggle.js
-```js
-import React from 'react';
-
-const Toggle = (props) => (
-  <div>
-    <button onClick={props.handleClick}>
-      Click me
-    </button>
-    <p> Current isToggleOn: {props.isToggleOn.toString()} </p>
-  </div>
-);
-
-export default Toggle;
 ```
 
 ---
