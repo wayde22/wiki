@@ -3,6 +3,10 @@ we import React into our apps.
 
 You can also put a component in the ```js ReactDOM.render(<Counter />),document.getElementById("root"))```
 
+this can reference different objects
+  //if a function is called as part of a method in an object, this in that function         will always return a reference to that object.
+  // If that function() is called as a stand alone function without a object reference,       this by default returns a reference to the window object, but if the strict mode is     enabled this will return undefined
+
 React must have a parent element to function properly. That is why everything must be wrapped in one <div></div>:
 
 '''js
@@ -157,3 +161,82 @@ render() {
   return classes;
  }
 ```
+
+```js
+state = {
+  count: 0,
+  tags: ['tag1', 'tag2', 'tag3']
+}
+render() {
+  
+
+  return(
+    <div>
+      <span className={this.getBadgeClasses()}> {this.formatCount()} </span>
+      <button>Increment</button>
+      <ul>
+        {this.state.tags.map(tag => <li key={tag.id}>{ tag }</li>)}
+      </ul>
+    </div>
+   )
+ }
+ 
+ getBadgeClasses() {
+  let classes = 'badge m-2 badge-';
+  classes += (this.state.count === 0) ? 'warning' : 'primary';
+  return classes;
+ }
+```
+
+Another way to render the tag array:
+```js
+state = {
+  count: 0,
+  tags: ['tag1', 'tag2', 'tag3']
+}
+
+renderTags() {
+  if (this.state.tags.length === 0) return <p>There are no tags</p> // A conditional
+}
+
+<ul> {this.state.tags.map(tag => <li key={tag.id}>{ tag }</li>)} </ul>
+
+render() {
+  return(
+    <div>
+      {this.state.tags.length === 0 && 'Please create a new tag!"} // Another conditional
+      { this.renderTags() }
+    </div>
+   )
+ }
+```
+This reads like:
+  Please create a new tag!
+  There are no tags
+  
+#### Handle Events (1:01:09)
+  ```js
+  state = {
+  count: 0,
+}
+
+handleIncrement() {
+  
+}
+
+render() {
+  return(
+    <div>
+      <span onClick={this.handleIncrement} className={this.getBadgeClasses()}> {this.formatCount()} </span>
+      <button>Increment</button>
+    </div>
+   )
+ }
+ 
+ getBadgeClasses() {
+  let classes = 'badge m-2 badge-';
+  classes += (this.state.count === 0) ? 'warning' : 'primary';
+  return classes;
+ }
+  
+  ```
