@@ -1,4 +1,4 @@
-React compiles the JSX to the '''jsReact.createElement''' which is why
+React compiles the JSX to the '''js React.createElement''' which is why
 we import React into our apps.
 
 You can also put a component in the ```js ReactDOM.render(<Counter />),document.getElementById("root"))```
