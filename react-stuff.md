@@ -9,7 +9,7 @@ this can reference different objects
 
 React must have a parent element to function properly. That is why everything must be wrapped in one <div></div>:
 
-'''js
+```js
 render() {
   return(
     <div>
