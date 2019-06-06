@@ -53,7 +53,7 @@ formatCount() {
   return count === 0 ? 'Zero' : count;
 }
 ```
-##### Expressions just return a value.
+#### Expressions just return a value.
 You can also return a JSX expression in the turnary:
 ```js
 this.state = {
@@ -79,7 +79,7 @@ and can also you the as a value of a constant or variable like:
 const x = <h1>Zero</h1>
 ```
 
-### Setting Attributes (40:58)
+#### Setting Attributes (40:58)
 Usually when setting attrubutes you set them a static text like:
 ```js
 <input src=" " alt=" " />
@@ -241,7 +241,7 @@ render() {
   
   ```
 
-### Updating State (1:08:45)
+#### Updating State (1:08:45)
 To set state and increment:
 ```js
 handleIncrement = () =>{
