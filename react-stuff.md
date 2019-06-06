@@ -240,3 +240,34 @@ render() {
  }
   
   ```
+
+### Updating State (1:08:45)
+To set state and increment:
+```js
+handleIncrement = () =>{
+  this.setState({ count: this.state.count + 1 })
+}
+```
+
+#### Passing Event Arguments (1:13:02)
+If you want to pass an argument to an event handler, put an arrow function in your onClick function.
+```js
+handleIncrement = (product) => {
+  console.log(product)
+  this.setState({ count: this.state.count + 1 })
+}
+render() {
+  return (
+    <div>
+      <span className={this.getBadgeClasses()}> {this.format()} </span>
+      <button 
+      onClick={ () => this.handleIncrement(product)}
+      className="btn btn-secondary btn-sm"
+      >
+        Increment
+      </button>
+     </div>
+    </div>
+  )
+}
+```
