@@ -266,7 +266,6 @@ render() {
       >
         Increment
       </button>
-     </div>
     </div>
   )
 }
