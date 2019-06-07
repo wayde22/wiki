@@ -21,7 +21,7 @@ render() {
 ```
 (37:15)
 You can have any expression inside the curly braces that you want. In the span tags for ex:
-'''js
+```js
 this.state = {
   count: 1
 }
