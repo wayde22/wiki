@@ -1,7 +1,7 @@
-React compiles the JSX to the ```javascript React.createElement``` which is why
+React compiles the JSX to the ``` React.createElement``` which is why
 we import React into our apps.
 
-You can also put a component in the ```js ReactDOM.render(<Counter />),document.getElementById("root"))```
+You can also put a component in the ``` ReactDOM.render(<Counter />),document.getElementById("root"))```
 
 this can reference different objects
   //if a function is called as part of a method in an object, this in that function         will always return a reference to that object.
