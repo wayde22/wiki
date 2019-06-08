@@ -18,7 +18,7 @@ export defualt Counter;
 ```
 
 (31:30)
-React must have a parent element to function properly. Everything must be wrapped in one <div></div>:
+React must have a parent element to function properly. Everything must be wrapped in one <div></div>
 
 ```js
 render() {
