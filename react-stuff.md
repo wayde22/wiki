@@ -14,7 +14,7 @@ class Counter extends Component {
     return <h1>Hello World</h1>
   }
 }
-export defualt Counter
+export defualt Counter;
 ```
 
 (31:30)
