@@ -364,6 +364,9 @@ class Counters extends Component {
 export default Counters
 ```
 
+
+(2:10:30)
+componentDidount
 ```js
 
 ```
