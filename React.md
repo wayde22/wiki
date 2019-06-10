@@ -52,7 +52,7 @@ yarn start
 
 #### React/Javascript Event Handlers
 ```
-Event	     Description
+###### Event	     ###### Description
 onchang------An HTML element has been changed
 onclick------The user clicks an HTML element
 onmouseover--The user moves the mouse over an HTML element
