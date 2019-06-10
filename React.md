@@ -50,7 +50,7 @@ yarn start
 - When writing inside the class the function should be writen ```handleWhatever = () => { some code }```
 - You call those functions like ```saveTweets()```
 
-#### React/Javascript Event Handlers
+#### React/Javascript Event Handlers [More DOM event Handlers](https://www.w3schools.com/jsref/dom_obj_event.asp)
 ```
 Event	     Description
 onchange-----An HTML element has been changed
