@@ -1,5 +1,5 @@
-### Redux
-[react-redux tutorial](https://daveceddia.com/redux-tutorial/)
+## Redux
+[react-redux tutorial](https://daveceddia.com/redux-tutorial/) by Dave Ceddia
 
 ##### index.js -- Add the imports createStore from redux, Provider from react-redux, reducer from ./reduce. Add createStore and wrap
 the App component in the Provider tags.
