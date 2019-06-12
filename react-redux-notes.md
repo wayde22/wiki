@@ -51,6 +51,10 @@ export default connect()(App);
 
 reducer.js
 ```js
+const items = [
+
+];
+
 const initialState = {
 
 };
