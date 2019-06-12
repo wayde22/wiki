@@ -2,7 +2,7 @@
 
 Read 12 Factor App
 
-A minimum amount of react-redux code that will print onto a screen is this
+A minimum amount of react-redux code that will print onto a screen is this:
 
 index.js
 ```js
