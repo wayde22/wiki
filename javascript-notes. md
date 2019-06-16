@@ -1,0 +1,81 @@
+Prompt
+```js
+prompt("Enter Passcode");
+```
+Alert
+```js
+Alert("Hello World");
+```
+Executing a functionis called invoking, calling, or applying it. You can call a function by putting parenthesis after an expression that produces a function value.
+```js
+getItem();
+```
+To output values in the console you must use a console.log Open the console by typing F12, or on Mac, Command-Option-I.
+```js
+console.log("Hello World");
+```
+Control Flow- The programs reads like a book, from top to bottom.
+
+Return Values
+Math.max takes any amount of number arguments and gives back the greatest.
+```js
+console.log(Math.max(2,5));
+// => 5
+```
+When a function produces a value, it is said to RETURN a value. Anything that produces a value is and expression in Javascript.
+
+Here is a Switch statement:
+```js
+switch(prompt('What is the weather like?')) {
+  case 'rainy':
+    console.log("Remember to bring an umbrella");
+    break;
+  case 'sunny':
+    console.log('Dress lightly');
+  case 'cloudy':
+    console.log('Go outside!!');
+    break;
+  default:
+    console.log('Unknown weather type!');
+    break;
+}
+
+Length- .length
+```
+let abc = 'abc';
+console.log(abc.length);
+// => 3
+
+Math.max, Math.min
+```js
+const Max = () => {
+  let maxNum = Math.max(a, b);
+  return maxNum;
+}
+
+console.log(Max(3, 10))
+// => 10
+```
+Array built in functions
+```js
+.push()
+.pop()
+.shift()
+.unshift()
+.indexOf()
+.lastIndexOf()
+.slice()
+.reverse()
+```
+String built in functions
+```js
+.slice()
+.indexOf()
+.trim()
+.split()
+.join()
+.padStart()
+.repeat()
+.length
+
+```
