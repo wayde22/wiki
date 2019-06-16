@@ -78,6 +78,25 @@ const mapDispatchToProps = (dispatch) => ({
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);
 ```
+actions.js
+```js
+// These are "action constants" that are used to keep from making spelling mistakes that could arise later with errors
+// These are in my reducers
+export const CHANGE_WHIZ_TO_BANG = 'CHANGE_WHIZ_TO_BANG';
+
+export const CHANGE_BAR_TO_RANDOM = 'CHANGE_BAR_TO_RANDOM';
+
+export const CHANGE_SOMETHING = 'CHANGE_SOMETHING';
+
+
+// These are in my App.js handles and mapDispatchToProps
+export const changeNumber = () => ({ type: CHANGE_BAR_TO_RANDOM, payload: Math.floor(Math.random() * 100)});
+
+export const changeWhiz = () => ({ type: CHANGE_WHIZ_TO_BANG, payload: 'Bang!!!'})
+
+export const changeSome = () => ({ type: CHANGE_SOMETHING, payload: 'WOW!!!'})
+```
+
 reducers.js
 ```js
 import { CHANGE_WHIZ_TO_BANG, CHANGE_BAR_TO_RANDOM, CHANGE_SOMETHING} from './actions' // must import these from you actions.js file to keep from mispelling errors
@@ -103,25 +122,4 @@ export const reducer = (state = initialState, action) => { // The store needs to
       
   }
 }
-
-
 ```
-actions.js
-```js
-// These are "action constants" that are used to keep from making spelling mistakes that could arise later with errors
-// These are in my reducers
-export const CHANGE_WHIZ_TO_BANG = 'CHANGE_WHIZ_TO_BANG';
-
-export const CHANGE_BAR_TO_RANDOM = 'CHANGE_BAR_TO_RANDOM';
-
-export const CHANGE_SOMETHING = 'CHANGE_SOMETHING';
-
-
-// These are in my App.js handles and mapDispatchToProps
-export const changeNumber = () => ({ type: CHANGE_BAR_TO_RANDOM, payload: Math.floor(Math.random() * 100)});
-
-export const changeWhiz = () => ({ type: CHANGE_WHIZ_TO_BANG, payload: 'Bang!!!'})
-
-export const changeSome = () => ({ type: CHANGE_SOMETHING, payload: 'WOW!!!'})
-```
-
