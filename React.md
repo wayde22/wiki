@@ -60,3 +60,23 @@ onmouseout---The user moves the mouse away from an HTML element
 onkeydown----The user pushes a keyboard key
 onload-------The browser has finished loading the page
 ```
+
+when writing elements in a variable write it with parenthesis, not curly braces. single line can be without any parenthesis or braces. Code it self has to have curly braces aroung them. Example:
+```js
+const element = <h1>Hello, world</h1>;
+
+const element = <h1>Hello, world</h1>;
+ReactDOM.render(element, document.getElementById('root'));
+
+function tick() {
+  const element = (
+    <div>
+      <h1>Hello, world!</h1>
+      <h2>It is {new Date().toLocaleTimeString()}.</h2>
+    </div>
+  );
+  ReactDOM.render(element, document.getElementById('root'));
+}
+
+setInterval(tick, 1000);
+```
