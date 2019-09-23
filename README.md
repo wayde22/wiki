@@ -1,7 +1,7 @@
 # wiki
 This is my wiki for personal notes about different things
 
-```perl
+```python
 const HelloWorld = () => alert('This is a wiki');
 ```
 yarn start
