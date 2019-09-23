@@ -15,14 +15,14 @@
 
 - if you come across an issue like `is not recognized as an internal or external command, operable program or batch file`, then run the following:
 
-```sh
+```js
 yarn global add create-react-app
 create-react-app my-app
 ```
 
 3. Run your app
 
-```sh
+```js
 cd your-app-name
 yarn start
 ```
